@@ -1,0 +1,16 @@
+.counter--wrapper {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+span {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;  
+}
+
+button {
+    width: 30px;
+}
