@@ -1,24 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
+import Counter from './Components/Counter';
 import './App.css';
-
+import CounterContainer from './CounterContainer';
+import MenuContainer from './Components/MenuContainer'
+const data = [{
+  heading: "Counter 1",
+  inititalCounter: 100,
+},
+{
+  heading: "Counter 2",
+  inititalCounter: 40
+}]
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* {
+        data.map(value => (
+          <div>
+            <div>{value.heading}</div>
+            <Counter inititalCounter={value.inititalCounter}/>
+          </div>
+          )
+        )
+
+      } */}
+      <MenuContainer />
+
+      {/* <CounterContainer inititalCounter={50}/> */}
     </div>
   );
 }
