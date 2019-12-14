@@ -14,7 +14,7 @@ const data = [{
 function App() {
   return (
     <div className="App">
-      {/* {
+      {
         data.map(value => (
           <div>
             <div>{value.heading}</div>
@@ -23,7 +23,7 @@ function App() {
           )
         )
 
-      } */}
+      }
       <MenuContainer />
 
       {/* <CounterContainer inititalCounter={50}/> */}
