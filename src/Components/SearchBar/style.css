@@ -1,0 +1,23 @@
+.search-bar {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    border: 1px solid #ccc;
+    padding: 10px;
+} 
+
+
+.search-bar input {
+    height: 60%;
+    font-size: 15px;
+    border: none;
+    flex: 1 1 auto;
+    outline: none;
+}
+
+.search-bar button.search {
+    width: 100px;
+    height: 60%
+}

@@ -1,0 +1,15 @@
+#menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.menu {
+    width: 30%;
+}
+
+.name-price-ratting {
+    display: flex;
+    justify-content: space-between;
+}
